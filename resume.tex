@@ -1,0 +1,212 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{multirow}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSmallSubheading}[1]{
+  \item
+    \textbf{#1}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textbf{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumePoint}[2]{
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      #1 & \textbf{\small #2}
+    \end{tabular*}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \multirow{3}{*}{\textbf{\Huge{Youssef Chaabouni}}} & {\small Email: \texttt{\underline{\href{mailto:youssefchaabouni@hotmail.com}{youssef.chaabouni@polytechnique.edu}}}}\\
+   & {\small Github: \texttt{\underline{\href{https://github.com/youssef-chaabouni}{https://github.com/youssef-chaabouni}}}} \\
+   & {\small LinkedIn: \texttt{\underline{\href{https://www.linkedin.com/in/youssef-chaabouni-0106b81b7/}{youssef-chaabouni-0106b81b7/}}}} \\
+   & {\small Mobile: +33 7 63 59 14 15} \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ecole Polytechnique}{Palaiseau, France}
+      {Double degree in Mathematics and Computer Science (CGPA: 4.23 / 4.3)}{Sep 2020 -- Jun 2023 (expected)}
+      \resumeItemListStart
+        \resumeItem{}
+          {First quartile student}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Pioneer High School of Ariana}{Ariana, Tunisia}
+      {Tunisian Baccalaureate in the field of Mathematics (Grade: 18.95/20)}{Sep 2016 -- Jul 2020}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSmallSubheading{Blub}
+      \resumeItemListStart
+        \resumeItem{}
+          {Currently working on a project to reunite professionals of complementary work skills to collaborate on the IP Paris campus.}
+      \resumeItemListEnd
+    \resumeSmallSubheading{XCoin}
+      \resumeItemListStart
+        \resumeItem{}
+          {Created a cryptocurrency in 2 months from scratch in C++ using Proof of Stake.}
+        \resumeItem{}
+          {As the leader of the Blockchain team, I had to be fully informed about how different aspects of the cryptocurrency work: the blockchain, different consensus mechanisms, hashing and ECDSA signature algorithm, the transactions and the user wallet, etc.}
+        \resumeItem{}
+          {My responsibilities included: attributing tasks to team members, learning about different existing consensus mechanisms and choosing one to implement, fully coding the blockchain and implementing the proof of stake algorithm, coding parts of the transactions and user wallet parts.}
+        \resumeItem{}
+          {Source: \texttt{\underline{\href{https://github.com/BXPlus/XCoin}{https://github.com/BXPlus/XCoin}}}}
+      \resumeItemListEnd
+    \resumeSmallSubheading{Parkwise: Transport'X Hackathon}
+      \resumeItemListStart
+        \resumeItem{}
+          {Used data from different car parking sites in the city to predict where a driver should go to find an empty car spot at a given time in the future.}
+        \resumeItem{}
+          {Led a team of 5 students on this project at the Transport'X 48-hour hackathon.}
+        \resumeItem{}
+          {Source: \texttt{\underline{\href{https://github.com/youssef-chaabouni/Project_31}{https://github.com/youssef-chaabouni/Project\_31}}}}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------ACHIEVEMENTS AND AWARDS-----------------
+\section{Achivements and Awards}
+  \resumeSubHeadingListStart
+    \resumePoint
+      {\textbf{Excellence Scholarship Recipient}, Fondation de l'Ecole Polytechnique}{2019-2022}
+      \vspace{-0.6cm}\resumeItemListStart
+        \resumeItem{}{Awarded upon my admission with honors into the university.}
+      \resumeItemListEnd
+    \resumePoint
+      {\textbf{Ranked 1st: Gold Medal PAMO}, Pan-African Mathematical Olympiads 2019}{Apr 2019}
+      \vspace{-0.6cm}\resumeItemListStart
+      \resumeItemListEnd
+   \resumePoint
+      {\textbf{Honorable Mention IMO}, International Mathematical Olympiads 2018}{Jul 2018}
+      \vspace{-0.6cm}\resumeItemListStart
+      \resumeItemListEnd
+    \resumePoint
+      {\textbf{Ranked 1st: Gold Medal \& Perfect score}, Pan-African Mathematical Olympiads 2018}{Jun 2018}
+      \vspace{-0.6cm}\resumeItemListStart
+        \resumeItem{}{Awarded a perfect score of 42/42 for having perfectly solved all the problems of the competition}
+      \resumeItemListEnd
+    \resumePoint
+      {\textbf{Bronze Medal, MYMC}, Mediterranean Youth Mathematical Championship 2017}{Jul 2017}
+      \vspace{-0.6cm}\resumeItemListStart
+      \resumeItemListEnd
+    \resumePoint
+      {\textbf{Ranked 24th International}, Championnat International des Jeux Mathématiques et Logiques}{Aug 2016}
+      \vspace{-0.6cm}\resumeItemListStart
+      \resumeItemListEnd
+    \resumePoint
+      {\textbf{Ranked 4th National}, Tunisian national High School entry exam}{Jul 2016}
+      \vspace{-0.6cm}\resumeItemListStart
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+ \section{Skills}
+  \resumeSubHeadingListStart
+    \resumePoint
+     {\textbf{Programming Languages}: Python 3, C++, JavaScript, HTML, CSS, PHP, R, Pascal}{}
+   \vspace*{-0.7cm}
+    \resumePoint
+     {\textbf{Technologies}: Git, NodeJS, Numpy, Matplotlib, scikit-learn, pandas, Sympy}{}
+    \vspace*{-0.7cm}
+    \resumePoint
+     {\textbf{Formal proof management}: Coq}{}
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+
+%--------PROGRAMMING SKILLS------------
+ \section{Languages:}
+  \resumeSubHeadingListStart
+    \resumePoint
+     {Arabic, French \& English: Native (Trilingual)}{}
+   \vspace*{-0.7cm}
+    \resumePoint
+     {Spanish: Elementary}{}
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+
+\end{document}
